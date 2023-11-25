@@ -1,0 +1,81 @@
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto para el cuerpo del documento */
+    color: rgb(255, 255, 255); /* Color del texto (blanco en este caso) */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los rellenos predeterminados */
+    height: 200%; /* Altura del cuerpo del documento (scroll para ver ambas imágenes) */
+    background-image: 
+        url(https://www.xtrafondos.com/descargar.php?id=3380&resolucion=3840x2160), /* URL de la primera imagen de fondo */
+        url(https://img.freepik.com/foto-gratis/fondo-pantalla-patron-fondo-abstracto-grunge-negro-foto-gratis_1340-33848.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700265600&semt=ais); /* URL de la segunda imagen de fondo */
+    background-repeat: no-repeat; /* No repetir las imágenes de fondo */
+    background-size: 100%, cover; /* Tamaño de las imágenes de fondo */
+    background-position: left top, center bottom; /* Posicionamiento de las imágenes de fondo */
+}
+
+/* Estilos para la etiqueta H1 con clase .H1 */
+.H1 {
+    margin-bottom: 1000px; /* Margen inferior para las etiquetas H1 con clase .H1 */
+    color: brown; /* Color de texto marrón */
+}
+
+/* Estilos para todas las etiquetas H1 */
+h1 {
+    text-align: center; /* Alineación del texto al centro */
+    color: darkgoldenrod; /* Color de texto dark goldenrod */
+}
+
+/* Estilos para el contenedor de redes sociales */
+.redes-sociales {
+    display: flex; /* Usa flexbox para el diseño */
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+    gap: 20px; /* Espacio entre los elementos */
+    margin-top: 40px; /* Margen superior del contenedor */
+}
+
+/* Estilos para los enlaces a redes sociales */
+.enlace-instagram,
+.enlace-youtube,
+.enlace-facebook,
+.enlace-twitter {
+    display: inline-block; /* Los elementos son mostrados como bloques en línea */
+    width: 50px; /* Ancho de los enlaces */
+    height: 50px; /* Altura de los enlaces */
+    overflow: hidden; /* Oculta el contenido que exceda el tamaño del elemento */
+    position: relative; /* Define el contexto de posición para los hijos absolutos */
+    transition: transform 0.3s ease-in-out; /* Transición al pasar el ratón */
+}
+
+/* Estilos para las imágenes dentro de los enlaces */
+.enlace-instagram img,
+.enlace-youtube img,
+.enlace-facebook img,
+.enlace-twitter img {
+    width: 100%; /* Ancho de la imagen dentro del enlace */
+    height: 100%; /* Altura de la imagen dentro del enlace */
+    transition: transform 0.3s ease-in-out; /* Transición al pasar el ratón */
+}
+
+/* Cambios al pasar el ratón sobre los enlaces */
+.enlace-instagram:hover,
+.enlace-youtube:hover,
+.enlace-facebook:hover,
+.enlace-twitter:hover {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el ratón */
+}
+
+/* Cambios al pasar el ratón sobre las imágenes de los enlaces */
+.enlace-instagram:hover img,
+.enlace-youtube:hover img,
+.enlace-facebook:hover img,
+.enlace-twitter:hover img {
+    transform: scale(1.2); /* Aumenta el tamaño al pasar el ratón */
+}
+
+/* Estilos para el logo con clase .LogoR */
+.LogoR {
+    margin-left: 1300px; /* Margen izquierdo para la imagen del logo */
+    width: 110px; /* Ancho de la imagen del logo */
+    height: 80px; /* Altura de la imagen del logo */
+}

@@ -1,0 +1,97 @@
+body{
+
+    font-family: Arial, sans-serif;
+    color: rgb(255, 255, 255);
+   background-image: url(https://st4.depositphotos.com/17928540/27316/i/450/depositphotos_273168754-stock-photo-burnt-wood-boards-texture-natural.jpg);
+   background-size: auto; 
+  
+  }
+  p{
+ 
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 17px;
+  }
+
+  li{
+    margin-right: 20px;
+    margin-left: 20px;  
+  }
+  h1{
+
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 650px; 
+    color: rgb(212, 151, 7);
+ }
+h2{
+   margin-left: 650px; 
+   color: rgb(212, 151, 7);  
+   margin-top: 40px;
+   margin-bottom: 40px; 
+ } 
+ .imgTienda{
+  max-width: 50%;
+  margin: 10px;
+  display: flex; 
+  align-items: center
+
+ }
+.Contenedor1{display: flex;
+ justify-content: center; 
+ }
+.imgArmas{ 
+  max-width: 50%;
+  margin: 10px;
+  display: flex; 
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+
+.Galeria{
+
+    display: flex;
+    width: 700px;
+    height: 350px;
+
+    }
+    .Galeria  img
+    {
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        filter: brightness(80%);
+        transition: .7s ease ;
+    }
+    
+    .Galeria img:hover {
+    
+            display: flex;
+            width: 500px;
+            opacity: 1;
+            filter: brightness(130%);
+            transform: scale(1.1);
+}  
+
+
+
+
+.BotonIni{
+  background-color: #af0d0d; /* Color inicial */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+  margin-left: 1300px;
+}
+
+.BotonIni:hover {
+  background-color: #880505; /* Color al pasar el ratón */
+  transform: translateY(-3px); /* Movimiento hacia arriba al pasar el ratón */
+}

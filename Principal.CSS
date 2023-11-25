@@ -1,0 +1,97 @@
+    
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  height: 200%; /* Altura total del scroll para que se vean ambas imágenes */
+  background-image: 
+  url(https://nacionbeta.com/wp-content/uploads/2018/05/203.jpg), /* URL de la primera imagen */
+  url(https://img.freepik.com/foto-gratis/fondo-pantalla-patron-fondo-abstracto-grunge-negro-foto-gratis_1340-33848.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1700265600&semt=ais); /* URL de la segunda imagen */
+background-repeat: no-repeat;
+background-size: auto, cover; /* Tamaño de las imágenes */
+background-position: left top, center bottom; /* Posicionamiento de las imágenes */
+
+
+  background-position: center top, center bottom; /* Posicionamiento de las imágenes */
+
+
+}
+.Titulo{
+margin-left: 420px;
+margin-bottom: 480px;
+width: 650px;
+height: 210px;
+}
+
+#SeccionPrincipal{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+
+
+.texto1{
+
+  flex: 1;
+  margin-right: 150px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+
+
+.bodyB1{
+
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+ background-image: url(https://i.pinimg.com/originals/b8/b8/f9/b8b8f99ef7271b7e377eef7db59b41ae.jpg);
+  background-size: cover; 
+
+}
+
+
+#MenuUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #af0d0d; /* Rojo */
+    overflow: hidden;
+}
+
+.MenuLi {
+    display: inline-block;
+    margin-right: 20px; /* Espacio entre elementos */
+    transition: transform 0.3s ease-out; /* Transición al pasar el ratón */
+}
+
+.MenuLi a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+.MenuLi a:hover {
+    background-color: #880505; /* Rojo más oscuro al pasar el mouse */
+    transform: translateY(-5px); /* Movimiento hacia arriba al pasar el ratón */
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cc0000; /* Rojo más oscuro */
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.MenuLi:hover .dropdown-content {
+  display: block;
+}

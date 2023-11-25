@@ -1,0 +1,120 @@
+body{
+
+  font-family: Arial, sans-serif;
+  color: rgb(255, 255, 255);
+ background-image: url(https://img.freepik.com/foto-gratis/fondo-estilo-grunge-textura-madera-vieja_1048-10332.jpg);
+  background-size: auto;
+
+}
+
+
+p{
+ 
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+h1{
+   margin-top: 10px;
+   margin-bottom: 20px;
+   margin-left: 650px; 
+   color: rgb(212, 151, 7);
+}
+h2{
+  margin-left: 650px; 
+  color: rgb(212, 151, 7);  
+  margin-top: 40px;
+  margin-bottom: 40px; 
+}
+
+.img1{
+
+  max-width: 100%;
+  margin-left: 25%;
+}
+h3{
+  margin-left: 270px;
+  color: rgb(212, 151, 7);
+  font-family: cursive;
+
+}
+.ArthurMorgan{
+
+  display: flex; 
+  align-items: center;
+}
+.TextArM{
+  flex: 1;
+  margin-right: 150px;
+  margin-left: 10px;
+  line-height: 50px;
+  
+}
+.Dutch{
+  display: flex; 
+  align-items: center;
+ 
+}
+.TextDutch{
+  flex: 1;
+  margin-right: 150px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.ImgDutch{
+  width: 44%;
+}
+.John{
+  display: flex; 
+  align-items: center;
+ 
+}
+.TextJohn{
+  flex: 1;
+  margin-right: 150px;
+  margin-left: 10px;
+  line-height: 50px;
+}
+.ImgJohn{
+  width: 44%;
+}
+.BotonIni{
+  background-color: #af0d0d; /* Color inicial */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-top: 20px;
+  margin-left: 1300px;
+}
+
+.BotonIni:hover {
+  background-color: #880505; /* Color al pasar el ratón */
+  transform: translateY(-3px); /* Movimiento hacia arriba al pasar el ratón */
+}
+.Galeria{
+
+  display: flex;
+  width: 700px;
+  height: 350px;
+
+  }
+  .Galeria  img
+  {
+      width: 0px;
+      flex-grow: 1;
+      object-fit: cover;
+      filter: brightness(80%);
+      transition: .7s ease ;
+  }
+  
+  .Galeria img:hover {
+  
+          display: flex;
+          width: 500px;
+          opacity: 1;
+          filter: brightness(130%);
+          transform: scale(1.1);
+}  
